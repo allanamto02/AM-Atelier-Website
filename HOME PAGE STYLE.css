@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Rufina&family=Yantramanav:wght@300&display=swap');
+
+* {
+    font-family: 'Yantramanav', sans-serif;
+}
+
+body {
+    margin: 20px;
+    background-image: url('1.1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #3E3122;
+    height: 650px;
+}
+
+/* links */
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px; 
+}
+
+.nav {
+    flex: 1; 
+    text-align: center;
+}
+
+nav ul a {
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+}
+
+a:visited {
+    color: white;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #d2d8a495;
+    text-decoration: underline;
+}

@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Rufina&family=Yantramanav:wght@300&display=swap');
+
+* {
+    font-family: 'Yantramanav', sans-serif;
+    color: white
+}
+
+body {
+    margin: 50px;
+    background-color: #3E3122;
+    height: 650px;
+}
+
+/* links */
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px; 
+}
+
+.nav {
+    flex: 1; 
+    text-align: center;
+}
+
+nav ul a {
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+}
+
+a:visited {
+    color: white;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #d2d8a495;
+    text-decoration: underline;
+}
+
+div.scroll-container {
+    background-color:  #3E3122;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 7px;
+  }
+  
+  div.scroll-container img {
+    padding: 10px;
+  }
+  
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    float: left;
+    width: 50%;
+    padding: 7px;
+  }
+  
+  img {
+    padding-bottom: 10px;
+  }
+  
+
+
